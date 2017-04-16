@@ -12,3 +12,5 @@ libraryDependencies += ws
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0" % Test
 
 
+herokuAppName in Compile := "nameless-headland-72261"
+
