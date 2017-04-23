@@ -14,3 +14,4 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "2.0.0
 
 herokuAppName in Compile := "nameless-headland-72261"
 
+libraryDependencies += "org.webjars" % "bootstrap" % "3.3.6"

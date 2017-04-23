@@ -1,0 +1,9 @@
+@(movies: List[Movie])(implicit messages: Messages)
+    @main(Messages("application.name")) {
+        <d1 class="movies">
+            @for(movie <- movies) {
+                <dt>@movie.name</dt>
+                <dt>@movie.image</dt>
+            }
+        </d1>
+    }
